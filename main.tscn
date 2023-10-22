@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b6lj2yr18giyr"]
+
+[ext_resource type="PackedScene" uid="uid://4e4jpo01xisp" path="res://mesh.tscn" id="1_5ktry"]
+
+[node name="Inherited" type="Node3D"]
+
+[node name="Mesh" parent="." instance=ExtResource("1_5ktry")]

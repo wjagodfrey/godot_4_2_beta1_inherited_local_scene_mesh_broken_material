@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://4e4jpo01xisp"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fewg5"]
+resource_local_to_scene = true
+albedo_color = Color(1, 1, 0, 1)
+emission_enabled = true
+emission_energy_multiplier = 0.0
+
+[sub_resource type="SphereMesh" id="SphereMesh_owhiv"]
+resource_local_to_scene = true
+material = SubResource("StandardMaterial3D_fewg5")
+
+[node name="Root" type="Node3D"]
+
+[node name="Mesh" type="MeshInstance3D" parent="."]
+mesh = SubResource("SphereMesh_owhiv")
